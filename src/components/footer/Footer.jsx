@@ -19,7 +19,7 @@ export const Footer = () => {
           Tous les droits sont réservés. 
           </p>
             </div>
-            
+
             <div className="box">
                <h3>Nous suivre</h3>
                <i className='fab fa-facebook-f'></i>
@@ -29,6 +29,8 @@ export const Footer = () => {
 
                <div className="box">
                <h3>Application Streamit</h3> 
+                <div className="imgflexSB"></div>
+                <img src="https://img.icons8.com/color/48/000000/apple-app-store--v3.png" alt="" />
 
                </div>
             </div>
