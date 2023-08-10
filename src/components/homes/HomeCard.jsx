@@ -39,7 +39,7 @@ export const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring
               </h4>
             </div>
             <button className='primary-btn'>
-              <i className='fas fa-play'></i> JOUEZ MAINTENANT 
+              <i className='fas fa-play'></i> REGARDEZ MAINTENANT 
             </button>
           </div>
           <div className='palyButton row'>

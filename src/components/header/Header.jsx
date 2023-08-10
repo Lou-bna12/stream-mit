@@ -29,7 +29,7 @@ export const Header = () => {
             <i className='fa fa-search'></i>
             <i className='fa fa-bell'></i>
             <i className='fa fa-user'></i>
-            <button>Inscrivez-vous maintenant</button>
+            <button>Inscrivez-vous</button>
         </div>
     </div>
     </header> 

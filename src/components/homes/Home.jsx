@@ -10,7 +10,7 @@ const SampleNextArrow = (props) =>{
   return ( 
     <div className="control-btn" onClick={ onClick }>
       <button className='next'>
-        <i className='fa fa-cheveron-right'></i>
+        <i className='fa fa-chevron-right'></i>
       </button>
     </div>
   )
@@ -21,7 +21,7 @@ const SamplePrevArrow = (props) =>{
   return ( 
     <div className="control-btn" onClick={ onClick }>
       <button className='prev'>
-        <i className='fa fa-cheveron-left'></i>
+        <i className='fa fa-chevron-left'></i>
       </button>
     </div>
   )
