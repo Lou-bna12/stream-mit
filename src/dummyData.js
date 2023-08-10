@@ -88,31 +88,31 @@ export const homeData = [
       id: 1,
       cover: "../images/upcome/u6.png",
       name: "King of Jungle",
-      time: "2hr : 38mins",
+      time: "2h : 30min",
     },
     {
       id: 2,
       cover: "../images/upcome/u7.jpg",
       name: "The illusion",
-      time: "2hr : 38mins",
+      time: "2h : 28min",
     },
     {
       id: 3,
       cover: "../images/upcome/u1.jpg",
       name: "Latest Movie",
-      time: "2hr : 38mins",
+      time: "2h : 15min",
     },
     {
       id: 4,
       cover: "../images/upcome/u5.jpg",
       name: "Latest two",
-      time: "2hr : 38mins",
+      time: "1h : 38min",
     },
     {
       id: 5,
       cover: "../images/upcome/u4.jpg",
       name: "Latest Three",
-      time: "2hr : 38mins",
+      time: "1h : 30min",
     },
   ]
   
