@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Ucard from "./Ucard"
+import {Ucard} from "./Ucard"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -50,7 +50,7 @@ export const Upcomming = ({ items, title }) => {
         <div className='container'>
           <div className='heading flexSB'>
             <h1>{title}</h1>
-            <Link to='/'>View All</Link>
+            <Link to='/'>Voir tout</Link>
           </div>
           <div className='content'>
             <Slider {...settings}>

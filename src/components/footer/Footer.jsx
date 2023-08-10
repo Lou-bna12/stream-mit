@@ -1,4 +1,5 @@
 import React from 'react'
+import "./footer.css"
 
 export const Footer = () => {
   return (
@@ -24,19 +25,20 @@ export const Footer = () => {
                <h3>Nous suivre</h3>
                <i className='fab fa-facebook-f'></i>
                <i className='fab fa-twitter'></i>
-               <i className='fab f-youtube'></i>
+               <i className='fab fa-youtube'></i>
                <i className='fab fa-instagram'></i>
 
                <div className="box">
                <h3>Application Streamit</h3> 
-                <div className="imgflexSB"></div>
+                <div className="img flexSB"></div>
                 <img src="https://img.icons8.com/color/48/000000/apple-app-store--v3.png" alt="" />
-
+                <span>App Store</span>
+                <img src="https://img.icons8.com/fluency/48/000000/google-play.png" alt=''/>
+                <span>Google Play Store</span>
                </div>
             </div>
         </div>
-    </footer>
-    
-    </>
-  )
+    </footer>   
+ </>
+)
 }
