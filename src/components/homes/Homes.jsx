@@ -1,11 +1,10 @@
 import React, { useState } from "react"
-import "./home.css"
 import { homeData } from "../../dummyData"
-import Home from "./Home"
+import { Home } from "./Home"
+import "./home.css"
 
-const Homes = () => {
+export const Homes = () => {
   const [items, setItems] = useState(homeData)
-
   return (
     <>
       <section className='home'>

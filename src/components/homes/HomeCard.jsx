@@ -56,7 +56,6 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
         </div>
       </div>
     </>
-  )
+)
 }
-
 export default HomeCard

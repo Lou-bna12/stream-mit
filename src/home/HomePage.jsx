@@ -7,7 +7,6 @@ export const HomePage = () => {
    <>
   <Homes />
   </>
-  )  
+)  
 }
-
 export default HomePage
