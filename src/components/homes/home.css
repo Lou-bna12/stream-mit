@@ -36,7 +36,8 @@
     -webkit-text-fill-color: transparent;
     -webkit-font-smoothing: antialiased;
   }
-  coverImage::after {
+  
+  .coverImage::after {
     content: "";
     position: absolute;
     top: 0;
