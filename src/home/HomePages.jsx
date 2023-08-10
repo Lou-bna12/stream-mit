@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { Homes } from '../components/homes/Homes'
+import Homes from '../components/homes/Homes'
 
-export const HomePages = () => {
+const HomePages = () => {
 
   return (
    <>
