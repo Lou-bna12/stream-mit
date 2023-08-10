@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useState } from "react"
+import { trending } from "../../dummyData"
+import {Home} from "../homes/Home"
+import "./trending.css"
 
-export const Trending = () => {
+
+ export const Trending = () => {
+  const [items, setItems] = useState(trending)
   return (
-    <div>Trending</div>
+    <>
+      <section className='trending'>
+        <Home items={items} />
+      </section>
+    </>
   )
 }
+export default Trending

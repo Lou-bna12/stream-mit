@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Homes from '../components/homes/Homes'
 import { Upcomming } from '../components/Upcomming/Upcomming'
 import { latest, upcome } from '../dummyData'
+import Trending from '../components/trending/Trending'
 
 export const HomePage = () => {
       const [items, setitems] = useState(upcome)
@@ -11,6 +12,7 @@ export const HomePage = () => {
   <Homes />
   <Upcomming items={items} title='Films à Venir' />
   <Upcomming items={item} title='Les plus récents' />
+  <Trending  />
   </>
 )  
 }
