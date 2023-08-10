@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Homes } from '../components/homes/Homes'
 
-const HomePages = () => {
+export const HomePages = () => {
+
   return (
-    <>
-    HomePages
-    </>
-  )
+   <>
+  <Homes />
+  </>
+  )  
 }
 
 export default HomePages

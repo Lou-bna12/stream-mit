@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { homeData } from '../../dummyData'
 
 export const Homes = () => {
-  return (
-    <div>Homes</div>
+  const [items, setItems] = useState(homeData)
+  return(
+    <>
+    <section className='home'>
+      <Homes items={items} />
+    </section>
+    <div className='margin'>
+
+    </div>
+    </>
   )
+
 }
 

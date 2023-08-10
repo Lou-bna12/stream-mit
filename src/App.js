@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router,Switch,Route } from "react-router-dom"
 import { Header } from './components/header/Header';
+import HomePages from './home/HomePages';
 
 
 
@@ -10,11 +11,8 @@ function App() {
   <Router>
     <Header />
       <Switch>
-    {/*<Route path="/about">
-    <About />
-    </Route>*/}
-  
-  </Switch>
+        <Route exact path="/" component={HomePages} />
+    </Switch>
 </Router>
 
 </>
