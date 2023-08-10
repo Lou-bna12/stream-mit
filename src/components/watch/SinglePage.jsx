@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import "./style.css";
-import { useParams } from "react-router-dom";
-import { homeData, recommended } from "../../dummyData";
-import { Upcomming }  from "../Upcoming/Upcomming";
+import React, { useState, useEffect } from "react"
+import "./style.css"
+import { useParams } from "react-router-dom"
+import { homeData, recommended } from "../../dummyData"
+import Upcomming from "../Upcomming/Upcomming"
 
 export const SinglePage = () => {
   const { id } = useParams()
@@ -29,17 +29,17 @@ export const SinglePage = () => {
               <div className='para'>
                 <h3>Date : {item.date}</h3>
                 <p>{item.desc}</p>
-                <p>, if chosen.</p>
+                
               </div>
               <div className='soical'>
                 <h3>Partager : </h3>
-                <img src='https://img.icons8.com/color/48/000000/facebook-new.png' alt="" />
-                <img src='https://img.icons8.com/fluency/48/000000/twitter-circled.png' alt="" />
-                <img src='https://img.icons8.com/fluency/48/000000/linkedin-circled.png'  alt="" />
+                <img src='https://img.icons8.com/color/48/000000/facebook-new.png' alt=""/>
+                <img src='https://img.icons8.com/fluency/48/000000/twitter-circled.png' alt=""/>
+                <img src='https://img.icons8.com/fluency/48/000000/linkedin-circled.png'  alt=""/>
               </div>
             </div>
           </section>
-          <Upcomming items={rec} title='Films recommandés' />
+          <Upcomming items={rec} title='Films Recommandés' />
         </>
       ) : (
         "no"
@@ -49,4 +49,3 @@ export const SinglePage = () => {
 }
 
 export default SinglePage
-
