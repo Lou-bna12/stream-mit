@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Homes from '../components/homes/Homes'
 
-const HomePages = () => {
+export const HomePage = () => {
 
   return (
    <>
@@ -10,4 +10,4 @@ const HomePages = () => {
   )  
 }
 
-export default HomePages
+export default HomePage
